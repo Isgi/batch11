@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>LEARN HTML</title>
+    <!-- define css -->
+    <style>
+      body {
+        display: flex;
+        flex-direction: row;
+      }
+      .first-div {
+        display: flex;
+        flex-grow: 1000;
+        background-color: yellow
+      }
+      .sec-div {
+        flex-grow: 2000;
+        display: flex;
+        background-color: blue
+      }
+      .title {
+        color: red;
+        font-size: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="text-clicked" onclick="onClick()">Click here!</p>
+    <script>
+      class Car {
+        constructor(brand) {
+          this.namecar = brand;
+        }
+        static present(namecar) {
+          return namecar
+        }
+      }
+      const mycar = new Car('Brio');
+      console.log(Car.present('Brio'));
+    </script>
+  </body>
+</html>
